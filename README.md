@@ -24,8 +24,8 @@ A Python-based Tor-enabled web crawler for crawling `.onion` sites and public we
 
 ```
 pip install requests[socks] tqdm beautifulsoup4 lxml
+```
 
-### System dependencies
 ### System dependencies
 
 ```
