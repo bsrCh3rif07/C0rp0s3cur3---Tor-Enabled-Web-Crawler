@@ -37,7 +37,7 @@ sudo apt install tor
 ## Usage
 
 ```
-python tor_crawler_func.py -u <URL or .onion> -d <DEPTH> [options]
+python Tor-Enabled-Web-Crawler.py -u <URL or .onion> -d <DEPTH> [options]
 ```
 
 ### Options
@@ -56,7 +56,7 @@ python tor_crawler_func.py -u <URL or .onion> -d <DEPTH> [options]
 Crawl a `.onion` site via Tor with depth 2:
 
 ```
-python tor_crawler_func.py -u http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion -d 2
+python Tor-Enabled-Web-Crawler.py -u http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion -d 2
 ```
 The crawler will save HTML pages in `tor_output` and log crawl results in `crawl_log.csv`.
 
