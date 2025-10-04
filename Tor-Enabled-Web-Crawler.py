@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 """
-tor_crawler_func.py
-Functional Tor-enabled crawler (BFS) — no classes.
-
 Usage:
   python tor_crawler_func.py -u http://example.com -d 1
   python tor_crawler_func.py -u http://xxxxxx.onion -d 2
@@ -255,3 +252,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
