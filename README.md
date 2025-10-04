@@ -22,13 +22,13 @@ A Python-based Tor-enabled web crawler for crawling `.onion` sites and public we
 
 ### Python dependencies
 
-```bash
+```
 pip install requests[socks] tqdm beautifulsoup4 lxml
 
 ### System dependencies
 ### System dependencies
 
-```bash
+```
 sudo apt install tor
 ```
 
@@ -36,7 +36,7 @@ sudo apt install tor
 
 ## Usage
 
-```bash
+```
 python tor_crawler_func.py -u <URL or .onion> -d <DEPTH> [options]
 ```
 
@@ -55,7 +55,7 @@ python tor_crawler_func.py -u <URL or .onion> -d <DEPTH> [options]
 
 Crawl a `.onion` site via Tor with depth 2:
 
-```bash
+```
 python tor_crawler_func.py -u http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion -d 2
 ```
 The crawler will save HTML pages in `tor_output` and log crawl results in `crawl_log.csv`.
@@ -65,7 +65,7 @@ The crawler will save HTML pages in `tor_output` and log crawl results in `crawl
 
 - Ensure Tor service is running:
 
-```bash
+```
 sudo systemctl start tor
 sudo systemctl status tor
 ```
